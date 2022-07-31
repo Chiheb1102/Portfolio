@@ -618,9 +618,19 @@ body.dark .contact .form button:focus {
     .about .infos .part02{
         max-width: 100%;
     }
+    .about .infos .part01 .partX,
+    .about .infos .part01 .partY{
+        flex: 0 0 100%;
+    }
     .about .btn {
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+    .contact .boxes {
+        padding: 40px 0;
+    }
+    .contact .form .nmem {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
 }
 /* End MediaQueries */
